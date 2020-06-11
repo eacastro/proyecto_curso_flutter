@@ -3,7 +3,6 @@ import 'package:proyecto_platzi_curso_flutter/floating_action_button_green.dart'
 
 class CardImage extends StatelessWidget {
   String pathImage = 'asssets/img/beach.jpeg';
-<<<<<<< HEAD
   final double topMargin;
   final double leftMargin;
   final double cardHeight;
@@ -18,27 +17,15 @@ class CardImage extends StatelessWidget {
     this.cardWidth = 250.0,
     this.addButton = true,
   });
-=======
-
-  CardImage(this.pathImage);
->>>>>>> 4b144ab85819ca85ab43836b6edd8615763d6bdd
 
   @override
   Widget build(BuildContext context) {
     var card = Container(
-<<<<<<< HEAD
       height: cardHeight,
       width: cardWidth,
       margin: EdgeInsets.only(
         top: topMargin,
         left: leftMargin,
-=======
-      height: 350.0,
-      width: 250.0,
-      margin: EdgeInsets.only(
-        top: 80.0,
-        left: 20.0,
->>>>>>> 4b144ab85819ca85ab43836b6edd8615763d6bdd
       ),
       decoration: BoxDecoration(
         image: DecorationImage(
@@ -59,7 +46,6 @@ class CardImage extends StatelessWidget {
       ),
     );
 
-<<<<<<< HEAD
     var stackContent = <Widget>[card];
 
     if (addButton)
@@ -70,14 +56,6 @@ class CardImage extends StatelessWidget {
     return Stack(
       alignment: Alignment(0.9, 1.1),
       children: stackContent,
-=======
-    return Stack(
-      alignment: Alignment(0.9, 1.1),
-      children: <Widget>[
-        card,
-        FloatingActionButtonGreen(),
-      ],
->>>>>>> 4b144ab85819ca85ab43836b6edd8615763d6bdd
     );
   }
 }
