@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:proyecto_platzi_curso_flutter/widgets/ButtonPurple/bloc/button_tapper.dart';
 
 class ButtonPurple extends StatelessWidget {
   String buttonText;
@@ -9,11 +10,7 @@ class ButtonPurple extends StatelessWidget {
   Widget build(BuildContext context) {
     return InkWell(
       onTap: () {
-        Scaffold.of(context).showSnackBar(
-          SnackBar(
-            content: Text('Navegando'),
-          ),
-        );
+        ButtonTapper.showSnack(context);
       },
       child: Container(
         margin: EdgeInsets.only(

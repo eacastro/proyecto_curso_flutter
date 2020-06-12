@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:proyecto_platzi_curso_flutter/button_purple.dart';
-import 'package:proyecto_platzi_curso_flutter/components/star_border.dart';
-import 'package:proyecto_platzi_curso_flutter/components/star_comp.dart';
-import 'package:proyecto_platzi_curso_flutter/components/star_half.dart';
 import 'package:proyecto_platzi_curso_flutter/description_component.dart';
 import 'package:proyecto_platzi_curso_flutter/review.dart';
 import 'package:proyecto_platzi_curso_flutter/review_list.dart';
+import 'package:proyecto_platzi_curso_flutter/star_border.dart';
+import 'package:proyecto_platzi_curso_flutter/star_comp.dart';
+import 'package:proyecto_platzi_curso_flutter/star_half.dart';
+import 'package:proyecto_platzi_curso_flutter/widgets/ButtonPurple/ui/widgets/button_purple.dart';
 
 class DescriptionPlace extends StatelessWidget {
   final String namePlace;

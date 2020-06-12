@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:proyecto_platzi_curso_flutter/components/star_comp.dart';
 import 'package:proyecto_platzi_curso_flutter/photo_user.dart';
+import 'package:proyecto_platzi_curso_flutter/star_comp.dart';
 import 'package:proyecto_platzi_curso_flutter/user_details.dart';
 
 class Review extends StatelessWidget {

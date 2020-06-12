@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:proyecto_platzi_curso_flutter/components/circular_button.dart';
+import 'package:proyecto_platzi_curso_flutter/circular_button.dart';
+
 
 class ButtonGroup extends StatelessWidget {
   double _mainButtonSize = 55.0;

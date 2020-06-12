@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:proyecto_platzi_curso_flutter/description_place.dart';
 import 'package:proyecto_platzi_curso_flutter/header_appbar.dart';
 import 'package:proyecto_platzi_curso_flutter/home_trips.dart';
 import 'package:proyecto_platzi_curso_flutter/platzi_trips.dart';
